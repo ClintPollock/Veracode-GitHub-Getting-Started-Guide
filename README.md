@@ -22,18 +22,18 @@ https://github.com/veracode/verademo
 
 ### Getting Started
 Create a new project, click Repos, and then click Import.  
-
-![Create New Project](images/GitLab-Getting-Started-1.png)
-![Create New Project](images/GitLab-Getting-Started-2.png)
-![Create New Project](images/GitLab-Getting-Started-3.png)
-![Create New Project](images/GitLab-Getting-Started-4.png)
-![Create New Project](images/GitLab-Getting-Started-5.png)
-![Create New Project](images/GitLab-Getting-Started-6.png)
-![Create New Project](images/GitLab-Getting-Started-7.png)
-![Create New Project](images/GitLab-Getting-Started-8.png)
-![Create New Project](images/GitLab-Getting-Started-9.png)
-![Create New Project](images/GitLab-Getting-Started-10.png)
-![Create New Project](images/GitLab-Getting-Started-11.png)
+![Create New Project](images/QuickStart-GitHub-1.png)
+![Create New Project](images/QuickStart-GitHub-2.png)
+![Create New Project](images/QuickStart-GitHub-3.png)
+![Create New Project](images/QuickStart-GitHub-4.png)
+![Create New Project](images/QuickStart-GitHub-5.png)
+![Create New Project](images/QuickStart-GitHub-6.png)
+![Create New Project](images/QuickStart-GitHub-7.png)
+![Create New Project](images/QuickStart-GitHub-8.png)
+![Create New Project](images/QuickStart-GitHub-9.png)
+![Create New Project](images/QuickStart-GitHub-10.png)
+![Create New Project](images/QuickStart-GitHub-11.png)
+![Create New Project](images/QuickStart-GitHub-12.png)
 
 Import code from:
 
