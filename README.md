@@ -23,29 +23,22 @@ https://github.com/veracode/verademo
 ### Getting Started
 Create a new project, click Repos, and then click Import.  
 ![Create New Project](images/QuickStart-GitHub-1.png)
+Click Import
+
 ![Create New Project](images/QuickStart-GitHub-2.png)
+
+Import repository https://github.com/veracode/verademo
+
 ![Create New Project](images/QuickStart-GitHub-3.png)
+
+Click Settings - New Repository Secret.  Add VID and VKEY with your Veracode API Credentials.
 ![Create New Project](images/QuickStart-GitHub-4.png)
 ![Create New Project](images/QuickStart-GitHub-5.png)
+
+Click setup new workflow yourself.
 ![Create New Project](images/QuickStart-GitHub-6.png)
-![Create New Project](images/QuickStart-GitHub-7.png)
-![Create New Project](images/QuickStart-GitHub-8.png)
-![Create New Project](images/QuickStart-GitHub-9.png)
-![Create New Project](images/QuickStart-GitHub-10.png)
-![Create New Project](images/QuickStart-GitHub-11.png)
-![Create New Project](images/QuickStart-GitHub-12.png)
+Copy in this YML
 
-Import code from:
-
-https://github.com/veracode/verademo
-
-![Import Code](images/GitLab-Getting-Started-2.png)
-
-Click Settings, CI/CD, and then find the Variables section to add your Veracode vid and vkey.
-
-![Add Veracode API Keys](images/GitLab-Getting-Started-3.png)
-
-Create Pipeline and import below yml
 ![Create Pipeline and Import below yml](images/GitLab-Getting-Started-4.png)
 
 
@@ -80,6 +73,17 @@ jobs:
     - name: Start SAST scan
       run: java -jar VeracodeJavaAPI.jar -action uploadandscan -vid ${{ secrets.VERACODE_API_ID }} -vkey ${{ secrets.VERACODE_API_KEY }} -appname Github-VeraDemo -createprofile false -version "GitHub Actions job $GITHUB_RUN_NUMBER" -filepath /home/runner/work/VeraDemoJava/VeraDemoJava/app/target/verademo.war
 ```
+
+
+![Create New Project](images/QuickStart-GitHub-7.png)
+![Create New Project](images/QuickStart-GitHub-8.png)
+![Create New Project](images/QuickStart-GitHub-9.png)
+![Create New Project](images/QuickStart-GitHub-10.png)
+![Create New Project](images/QuickStart-GitHub-11.png)
+![Create New Project](images/QuickStart-GitHub-12.png)
+
+
+
 
 Once you save the GitHub Pipeline it will checkout the code, build and artifact the app, and then submit the application for a Static + Software Composition Analysis scan.  
 
