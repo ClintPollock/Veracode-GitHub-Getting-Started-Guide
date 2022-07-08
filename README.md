@@ -36,6 +36,9 @@ Import repository https://github.com/veracode/verademo
 Click Settings - New Repository Secret.  Add VID and VKEY with your Veracode API Credentials.
 
 ![Create New Project](images/QuickStart-GitHub-4.png)
+
+Should look like this -
+
 ![Create New Project](images/QuickStart-GitHub-5.png)
 
 Click setup new workflow yourself.
@@ -98,8 +101,6 @@ You can review the logs and see that the scan has been submitted.
 ![Create New Project](images/QuickStart-GitHub-11.png)
 
 Login to the Veracode platform and review results.
-
-![Create New Project](images/QuickStart-GitHub-12.png)
 
 ## To go further, visit -
 
