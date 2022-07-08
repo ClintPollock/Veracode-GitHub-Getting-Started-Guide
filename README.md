@@ -22,7 +22,9 @@ https://github.com/veracode/verademo
 
 ### Getting Started
 Create a new project, click Repos, and then click Import.  
+
 ![Create New Project](images/QuickStart-GitHub-1.png)
+
 Click Import
 
 ![Create New Project](images/QuickStart-GitHub-2.png)
@@ -32,14 +34,16 @@ Import repository https://github.com/veracode/verademo
 ![Create New Project](images/QuickStart-GitHub-3.png)
 
 Click Settings - New Repository Secret.  Add VID and VKEY with your Veracode API Credentials.
+
 ![Create New Project](images/QuickStart-GitHub-4.png)
 ![Create New Project](images/QuickStart-GitHub-5.png)
 
 Click setup new workflow yourself.
-![Create New Project](images/QuickStart-GitHub-6.png)
-Copy in this YML
 
-![Create Pipeline and Import below yml](images/GitLab-Getting-Started-4.png)
+![Create New Project](images/QuickStart-GitHub-6.png)
+
+
+Copy in this YML
 
 
 ```bash
@@ -76,21 +80,27 @@ jobs:
 
 
 ![Create New Project](images/QuickStart-GitHub-7.png)
+
+Commit the Action
+
 ![Create New Project](images/QuickStart-GitHub-8.png)
+
+Go into Actions, and then Run the Workflow
+
 ![Create New Project](images/QuickStart-GitHub-9.png)
+
+The Workflow should complete
+
 ![Create New Project](images/QuickStart-GitHub-10.png)
+
+You can review the logs and see that the scan has been submitted.
+
 ![Create New Project](images/QuickStart-GitHub-11.png)
+
+Login to the Veracode platform and review results.
+
 ![Create New Project](images/QuickStart-GitHub-12.png)
-
-
-
-
-Once you save the GitHub Pipeline it will checkout the code, build and artifact the app, and then submit the application for a Static + Software Composition Analysis scan.  
-
-![Create Pipeline and Import below yml](images/GitLab-Getting-Started-5.png)
-
-Check the platform to review the results.
 
 ## To go further, visit -
 
-https://gitlab.com/veracode-gitlab-manual/veracode-manual-for-gitlab
+https://github.com/veracode/Veracode-manual-for-GitHub
