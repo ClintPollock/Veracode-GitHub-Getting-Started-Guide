@@ -12,7 +12,7 @@ https://github.com/veracode/verademo
 * Build code / create artifact
 * Scan
 
-![Create New Project](images/QuickStart-GitHub-1)
+![Create New Project](images/QuickStart-GitHub-1.png)
 
 ## Configuration Steps
 * Create project
@@ -24,6 +24,16 @@ https://github.com/veracode/verademo
 Create a new project, click Repos, and then click Import.  
 
 ![Create New Project](images/GitLab-Getting-Started-1.png)
+![Create New Project](images/GitLab-Getting-Started-2.png)
+![Create New Project](images/GitLab-Getting-Started-3.png)
+![Create New Project](images/GitLab-Getting-Started-4.png)
+![Create New Project](images/GitLab-Getting-Started-5.png)
+![Create New Project](images/GitLab-Getting-Started-6.png)
+![Create New Project](images/GitLab-Getting-Started-7.png)
+![Create New Project](images/GitLab-Getting-Started-8.png)
+![Create New Project](images/GitLab-Getting-Started-9.png)
+![Create New Project](images/GitLab-Getting-Started-10.png)
+![Create New Project](images/GitLab-Getting-Started-11.png)
 
 Import code from:
 
