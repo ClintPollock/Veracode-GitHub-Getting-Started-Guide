@@ -78,7 +78,7 @@ jobs:
         args: -sS -o VeracodeJavaAPI.jar "https://repo1.maven.org/maven2/com/veracode/vosp/api/wrappers/vosp-api-wrappers-java/19.6.5.8/vosp-api-wrappers-java-19.6.5.8.jar"
 
     - name: Start SAST scan
-      run: java -jar VeracodeJavaAPI.jar -action uploadandscan -vid ${{ secrets.VERACODE_API_ID }} -vkey ${{ secrets.VERACODE_API_KEY }} -appname Github-VeraDemo -createprofile false -version "GitHub Actions job $GITHUB_RUN_NUMBER" -filepath ./app/target/verademo.war
+      run: java -jar VeracodeJavaAPI.jar -action uploadandscan -vid ${{ secrets.VERACODE_API_ID }} -vkey ${{ secrets.VERACODE_API_KEY }} -appname Github-VeraDemo -createprofile true -version "GitHub Actions job $GITHUB_RUN_NUMBER" -filepath ./app/target/verademo.war
 ```
 
 
